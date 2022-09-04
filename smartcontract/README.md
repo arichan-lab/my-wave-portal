@@ -13,3 +13,18 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+# Deploy our our Smart Contract to our local blockchain.
+Test the new functionality we added:
+```shell
+npx hardhat run scripts/run.js
+```
+
+# Update our Smart Contract
+we need to do a few things if we update our contract:
+1. We need to deploy it again.
+```shell
+npx hardhat run scripts/deploy.js --network rinkeby
+```
+2. We need to update the contract address on our frontend.
+3. We need to update the abi file on our frontend.
