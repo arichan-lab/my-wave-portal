@@ -15,7 +15,7 @@ contract WavePortal {
     event NewWave(address indexed from, uint256 timestamp, string message);
 
     /*
-     * I created a struct here named Wave.
+     * Created a struct here named Wave.
      * A struct is basically a custom datatype where we can customize what we want to hold inside it.
      */
     struct Wave {
@@ -25,7 +25,7 @@ contract WavePortal {
     }
 
     /*
-     * I declare a variable waves that lets me store an array of structs.
+     * Declare a variable waves that lets me store an array of structs.
      * This is what lets me hold all the waves anyone ever sends to me!
      */
     Wave[] waves;

@@ -1,0 +1,19 @@
+{
+    "name": "WaveContract",
+       "dockerComposeFile": [
+           "../docker-compose.yml"
+       ],
+       "service": "wavecontract",
+       "workspaceFolder": "/opt",
+       "settings": {
+           "terminal.integrated.profiles.linux": {
+               "bash (login)": {
+                   "path": "bash",
+                   "args": ["-l"]
+               }
+           }
+       },
+    //    "extensions": [
+    //    ],
+       "shutdownAction": "none"
+}

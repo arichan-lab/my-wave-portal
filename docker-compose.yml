@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  wavecontract:
+    container_name: wave-contract
+    build:
+      context: smartcontract
+      dockerfile: ./Dockerfile.dev
+    env_file: ./smartcontract/.env
+    tty: true
+    volumes:
+      - ./smartcontract:/opt:cached
+
+volumes:
+  node_modules_volume:
