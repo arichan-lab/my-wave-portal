@@ -1,3 +1,4 @@
+# Motivation
 This project is for learning the basics of smart contracts in 2022. 
 
 # Basic Sample Hardhat Project
